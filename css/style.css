@@ -1,0 +1,24 @@
+.gradient {
+	position: absolute;
+	bottom: 0;
+	height: 465px;
+	width: 100%;
+	background: linear-gradient(180deg, rgba(33, 33, 50, 0.2) 0%, rgba(33, 33, 50, 0) 98.2%),
+	linear-gradient(180deg, #212132 0%, rgba(26, 26, 40, 0.85) 20.31%, rgba(0, 0, 0, 0) 100%),
+	linear-gradient(90deg, #0961FB 0%, #EB0899 100%);
+	animation: gradient 10s infinite linear;
+	background-size: 500%;
+	z-index: -1;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 80% 0%;
+	}
+	50% {
+		background-position: 20% 100%;
+	}
+	100% {
+		background-position: 80% 0%;
+	}
+}
