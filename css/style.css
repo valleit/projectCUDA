@@ -2,4 +2,87 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    padding-top: 110px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color:#FFF;
+}
+
+.page_button{
+    display: block;
+    max-width: 295px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* --- HEADER SECTION --- */
+
+header {
+    background-color: #87509C;
+}
+
+.padding_block {
+    padding: 60px 200px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav_button {
+    text-transform: uppercase;
+    padding: 7px 17px;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    /*анимация загорания и затухания*/
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+
+.nav_button:hover {
+    border-radius: 3px;
+    background-color: #643A79;
+}
+
+/* --- WELKOME SECTION ---*/
+
+.welkome {
+    background-color: #87509C;
+    padding: 30px 0 146px;
+    text-align: center;
+}
+
+.welkome h1 {
+    max-width: 905px;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+
+.welkome .page_button {
+    background-color: #EB7D4B;
+    border-bottom: 3px solid #C86A40;
 }
